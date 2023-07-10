@@ -56,4 +56,28 @@ body {
     .w-100-mx-991 {
         width: 100%;
     }
+
+    .hero-section {
+        padding: 50px 0;
+    }
+
+    .fs-50-mx-991 {
+        font-size: 50px;
+    }
+
+    .fs-22-mx-991 {
+        font-size: 22px;
+    }
+
+    .fs-22-mx-991 {
+        font-size: 22px;
+    }
+
+    .fs-12-mx-991 {
+        font-size: 12px;
+    }
+
+    .lh-12-mx-991 {
+        line-height: 12px;
+    }
 }
