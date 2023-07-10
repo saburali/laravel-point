@@ -1,15 +1,49 @@
 /* Google Fonts */
 @import url('https://fonts.googleapis.com/css2?family=Urbanist:wght@100;200;300;400;500;600;700;800;900&display=swap');
 
+:root {
+    --themeColor: #ff2d20;
+}
+
 body {
     margin: 0;
     padding: 0;
     font-family: 'Urbanist', sans-serif;
 }
 
+/* Hero Section */
+.hero-section {
+    min-height: 91.4vh;
+    background: linear-gradient(to right, #F5EFEF, #FEADA6);
+}
+
+/* Title */
+.top-title::after {
+    content: '';
+    top: 10px;
+    height: 1px;
+    width: 60px;
+    margin-left: 12px;
+    position: absolute;
+    background-color: var(--themeColor);
+}
+
+/* Color */
+.themeColor {
+    color: var(--themeColor);
+}
+
 /* Font Size */
 .fs-16 {
     font-size: 16px;
+}
+
+.fs-48 {
+    font-size: 48px;
+}
+
+.fs-72 {
+    font-size: 72px;
 }
 
 /* Font Weigh */
