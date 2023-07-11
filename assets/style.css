@@ -41,6 +41,14 @@ body {
     -webkit-line-clamp: 5;
 }
 
+.double-colon::before {
+    content: '❝';
+}
+
+.double-colon::after {
+    content: '❞';
+}
+
 /* Buttons */
 .btn-icon-animation .icon {
     transform: scale(0.80);
@@ -109,9 +117,26 @@ body {
     background-image: url("../assets/images/bg-image.png");
 }
 
+/* Section Wise Border */
+.learners-about .row .col-12:nth-child(1) .card,
+.learners-about .row .col-12:nth-child(2) .card,
+.learners-about .row .col-12:nth-child(3) .card {
+    border: 0;
+    border-right: 1px solid #ccc;
+}
+
+.learners-about .row .col-12:nth-child(3) .card {
+    border: 0;
+    border-right: 0 solid #ccc;
+}
+
 /* Font Size */
 .fs-16 {
     font-size: 16px;
+}
+
+.fs-18 {
+    font-size: 18px;
 }
 
 .fs-20 {
@@ -147,7 +172,16 @@ body {
     font-weight: 600;
 }
 
+/* Height */
+.h-60 {
+    height: 60px;
+}
+
 /* Width */
+.w-60 {
+    width: 60px;
+}
+
 @media only screen and (max-width: 991px) {
     .w-100-mx-991 {
         width: 100%;
@@ -175,5 +209,19 @@ body {
 
     .lh-12-mx-991 {
         line-height: 12px;
+    }
+}
+
+@media only screen and (max-width: 767px) {
+    .learners-about .row .col-12:nth-child(2) .card {
+        border: 0;
+        border-right: 0 solid rgba(204, 204, 204, 0);
+    }
+}
+
+@media only screen and (max-width: 575px) {
+    .learners-about .row .col-12:nth-child(1) .card {
+        border: 0;
+        border-right: 0 solid rgba(204, 204, 204, 0);
     }
 }
