@@ -56,6 +56,32 @@ body {
     color: var(--themeColor);
 }
 
+.gradient-color {
+
+}
+
+.gradient-color-1 {
+    background: linear-gradient(to right, #D4FC79, #96E6A1);
+        -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    -webkit-text-stroke: 1px white;
+}
+
+.gradient-color-2 {
+    background: linear-gradient(to right, #F6D365, #FDA085);
+        -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    -webkit-text-stroke: 1px white;
+}
+
+.gradient-color-3 {
+    background: linear-gradient(to right, #F99185, #B12A5B);
+        -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    -webkit-text-stroke: 1px white;
+}
+
+
 /* Background Color */
 .section-light-deep {
     background-color: var(--secLightDeep);
@@ -63,6 +89,18 @@ body {
 
 .gradient-bg {
     background: linear-gradient(130deg, rgba(255, 255, 255, 0.80), rgba(255, 255, 255, 0));
+}
+
+.gradient-bg-2 {
+    background: linear-gradient(130deg, #84FAB0, #8FD3F4);
+}
+
+.gradient-bg-3 {
+    background: linear-gradient(130deg, #F6D365, #FDA085);
+}
+
+.gradient-bg-4 {
+    background: linear-gradient(130deg, #F99185, #B12A5B);
 }
 
 /* Background Images */
@@ -76,12 +114,20 @@ body {
     font-size: 16px;
 }
 
+.fs-24 {
+    font-size: 24px;
+}
+
 .fs-36 {
     font-size: 36px;
 }
 
 .fs-48 {
     font-size: 48px;
+}
+
+.fs-60 {
+    font-size: 60px;
 }
 
 .fs-72 {
