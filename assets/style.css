@@ -49,6 +49,25 @@ body {
     content: '❞';
 }
 
+.footer-link {
+    color: #000;
+    transition: 0.4s all ease-in-out;
+}
+
+.footer-icon {
+    color: #000;
+    transition: 0.4s all ease-in-out;
+}
+
+.footer-icon:hover {
+    color: var(--themeColor);
+    border-color: var(--themeColor) !important;
+}
+
+.footer-link:hover {
+    color: var(--themeColor);
+}
+
 /* Buttons */
 .btn-icon-animation .icon {
     transform: scale(0.80);
@@ -131,6 +150,10 @@ body {
 }
 
 /* Font Size */
+.fs-14 {
+    font-size: 14px;
+}
+
 .fs-16 {
     font-size: 16px;
 }
@@ -207,6 +230,14 @@ body {
     height: 50px;
 }
 
+.h-30 {
+    height: 30px;
+}
+
+.w-30 {
+    width: 30px;
+}
+
 .h-60 {
     height: 60px;
 }
@@ -218,6 +249,10 @@ body {
 
 .w-150 {
     width: 150px;
+}
+
+.w-160 {
+    width: 160px;
 }
 
 /* Responsive */
