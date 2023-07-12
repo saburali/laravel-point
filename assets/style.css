@@ -14,7 +14,7 @@ body {
 
 /* Hero Section */
 .hero-section {
-    min-height: 91.4vh;
+    min-height: 100vh;
     background: linear-gradient(to right, #F5EFEF, #FEADA6);
 }
 
@@ -287,6 +287,23 @@ body {
 }
 
 @media only screen and (max-width: 767px) {
+    .navbar {
+        top: 0;
+        left: 0;
+        right: 0;
+        z-index: 999;
+        position: fixed;
+        transition: 0.4s all ease-in-out;
+    }
+
+    .mouseScroll .navbar {
+        box-shadow: rgba(33, 35, 38, 0.1) 0 10px 10px -10px;
+    }
+
+    .hero-section {
+        padding-top: 130px;
+    }
+
     .text-center-mx-767 {
         text-align: center;
     }
@@ -309,5 +326,28 @@ body {
     .learners-about .row .col-12:nth-child(1) .card {
         border: 0;
         border-right: 0 solid rgba(204, 204, 204, 0);
+    }
+}
+
+@media only screen and (min-width: 768px) {
+    .navbar {
+        top: 0;
+        left: 0;
+        right: 0;
+        z-index: 999;
+        height: 80px;
+        position: fixed;
+        transition: all ease-in-out 0.5s;
+        background-color: transparent !important;
+    }
+
+    .removeNavbar .navbar {
+        top: -70px;
+    }
+
+    .removeNavbar.mouseScroll .navbar {
+        top: 0;
+        background-color: #ffffff !important;
+        box-shadow: rgba(33, 35, 38, 0.1) 0 10px 10px -10px;
     }
 }

@@ -1,3 +1,20 @@
+// Navbar Behaviour
+window.onscroll = function () {
+    let body = document.getElementById('body');
+    if (window.pageYOffset > 700) {
+        body.classList.add("mouseScroll");
+    } else {
+        body.classList.remove("mouseScroll");
+    }
+
+    let body_2 = document.getElementById('body');
+    if (window.pageYOffset > 100) {
+        body_2.classList.add("removeNavbar");
+    } else {
+        body_2.classList.remove("removeNavbar");
+    }
+}
+
 // Highlight Text (2 No Word)
 const paragraph = document.getElementById("highlight-text");
 const words = paragraph.innerHTML.split(" ");
