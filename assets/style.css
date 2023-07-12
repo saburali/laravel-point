@@ -287,6 +287,18 @@ body {
 }
 
 @media only screen and (max-width: 767px) {
+    .text-center-mx-767 {
+        text-align: center;
+    }
+
+    .fs-22-mx-767 {
+        font-size: 22px;
+    }
+
+    .fs-32-mx-767 {
+        font-size: 32px;
+    }
+
     .learners-about .row .col-12:nth-child(2) .card {
         border: 0;
         border-right: 0 solid rgba(204, 204, 204, 0);
